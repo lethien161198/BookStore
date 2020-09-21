@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#52a3cf"
+    android:gravity="center"
+    tools:context=".activity.DangNhapActivity">
+    <LinearLayout
+        android:background="#ffff"
+        android:layout_width="300dp"
+        android:orientation="vertical"
+        android:layout_height="500dp">
+        <TextView
+            android:layout_margin="5sp"
+            android:background="#00ffa1"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:textColor="#001aff"
+            android:textSize="25sp"
+            android:text="Đăng Nhập"
+            android:layout_width="match_parent"
+            android:layout_height="100sp" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="5sp"
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_marginTop="30dp"
+                android:id="@+id/edittexttendangnhap"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Email Hoặc Số Điện Thoại"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_margin="5sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="textPassword"
+                android:layout_marginTop="30dp"
+                android:id="@+id/edittextmatkhau"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:hint="Mật Khẩu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+        <Button
+            android:textSize="18sp"
+            android:textColor="#0022ff"
+            android:id="@+id/buttondangnhap"
+            android:gravity="center"
+            android:background="#6193de"
+            android:text="Đăng Nhập"
+            android:layout_width="130dp"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <Button
+                android:textSize="18sp"
+                android:textColor="#0022ff"
+                android:id="@+id/buttondangky"
+                android:gravity="center"
+                android:background="#6193de"
+                android:text="Đăng Ký"
+                android:layout_width="130dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+        <TextView
+            android:textColor="#ff00"
+            android:id="@+id/textviewcanhbaodangnhap"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+
+</LinearLayout>
