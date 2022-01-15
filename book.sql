@@ -6,7 +6,7 @@
 -- Thời gian đã tạo: Th7 06, 2020 lúc 04:57 AM
 -- Phiên bản máy phục vụ: 10.4.13-MariaDB
 -- Phiên bản PHP: 7.4.7
--- THien edit 3
+-- THien 123
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
